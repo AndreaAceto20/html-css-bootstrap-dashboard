@@ -16,8 +16,9 @@ header img{
 
 #add{
     border-radius: 3%;
-    background-color: blue;
+    background-color: lightblue;
     border-style: none;
+    border-radius: 10%;
 }
 
 @media screen and (max-width: 767px) {
@@ -30,6 +31,10 @@ i{
     border: 1px solid black;
     margin-right: 10%;
     padding: 5%;
+}
+
+i:hover{
+    background-color: grey;
 }
 
 .border-grey{

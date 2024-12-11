@@ -1,0 +1,22 @@
+
+
+header{
+    height: 150px;
+}
+
+header img{
+    height: 100px;
+    width: auto;
+}
+
+#top{
+    display: flex;
+    justify-content: space-between;
+}
+
+#add{
+    border-radius: 3%;
+    background-color: blue;
+    border-style: none;
+    /* padding: 3%; */
+}

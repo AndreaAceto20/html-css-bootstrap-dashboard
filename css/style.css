@@ -18,7 +18,6 @@ header img{
     border-radius: 3%;
     background-color: blue;
     border-style: none;
-    /* padding: 3%; */
 }
 
 @media screen and (max-width: 767px) {
@@ -26,3 +25,19 @@ header img{
         display: none;
     }
 }
+
+i{
+    border: 1px solid black;
+    margin-right: 10%;
+    padding: 5%;
+}
+
+.border-grey{
+    border: 1px solid lightgrey;   
+}
+
+.top{
+    background-color: lightgray;
+    padding: 5%;
+}
+

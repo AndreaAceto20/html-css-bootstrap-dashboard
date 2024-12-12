@@ -1,16 +1,18 @@
-body{
-    font-size: 25px;
-}
-
 header{
     height: 130px;
     background-color: darkgrey;
     margin-bottom: 2%;
+    font-size: 18px;
 }
 
 header img{
     height: 100px;
     width: auto;
+}
+
+
+main{
+    font-size: 25px;
 }
 
 .row{

@@ -65,7 +65,7 @@
                         <p class="subtitle">Titolo versione italiana</p>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row border-bottom pb-5 border-4">
                     <div class="col-sm-12 col-lg-4">
                         <label class="form-label" for="genere">Genere</label>
                         <select class="form-select" id="genere">
@@ -77,22 +77,29 @@
                     </div>
                     <div class="col-sm-12 col-lg-4">
                         <label for="anno-pub" class="form-label">Anno di pubblicazione</label>
-                        <input type="text" class="form-control" id="titolo" placeholder="Inserisci l'anno">
-                    </div>
+                        <input type="text" class="form-control" id="anno-pub" placeholder="Inserisci l'anno">
                     </div>
                     <div class="col-sm-12 col-lg-4">
                         <label for="isbn" class="form-label">ISBN#</label>
-                        <input type="text" class="form-control" id="titolo" placeholder="Inserisci il codice isbn">
+                        <input type="number" class="form-control" id="isbn" placeholder="Inserisci il codice isbn">
                     </div>
                 </div>
                 <div class="row">
-
+                    <div class="mb-3">
+                        <label for="note" class="form-label">Note</label>
+                        <textarea class="form-control" id="notw" rows="3" placeholder="Inserisci eventuali note sul libro"></textarea>
+                      </div>
                 </div>
                 <div class="row">
-
+                    <div class="form-check">
+                        <input class="form-check-input border-2" type="checkbox" value="" id="flexCheckDefault" >
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Disponibile anche in digitale
+                        </label>
+                      </div>
                 </div>
                 <div class="row">
-
+                    <div class="col-3"><button type="submit" class="btn btn-primary">Aggiungi libro</button></div>
                 </div>
             </form>
         </section>

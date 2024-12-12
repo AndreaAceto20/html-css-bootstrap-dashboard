@@ -1,7 +1,9 @@
 
 
 header{
-    height: 150px;
+    height: 130px;
+    background-color: darkgrey;
+    margin-bottom: 2%;
 }
 
 header img{
@@ -19,6 +21,10 @@ header img{
     background-color: lightblue;
     border-style: none;
     border-radius: 10%;
+    text-decoration: none;
+    height: 35%;
+    padding: 2%;
+    color: #fff;
 }
 
 @media screen and (max-width: 767px) {

@@ -1,0 +1,23 @@
+body{
+    font-size: 25px;
+}
+
+header{
+    height: 130px;
+    background-color: darkgrey;
+    margin-bottom: 2%;
+}
+
+header img{
+    height: 100px;
+    width: auto;
+}
+
+.row{
+    margin-bottom: 3%;
+}
+
+.subtitle{
+    font-size: 20px;
+    color: gray;
+}
